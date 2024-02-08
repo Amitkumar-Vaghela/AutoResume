@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> AmitVaghela Resume </title>
+    <title>Amit Vaghela Resume</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="styles.css"> <!-- New CSS file -->
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure your styles.css file is properly linked -->
     <style>
         /* Additional inline CSS for fallback */
         body {
@@ -13,88 +13,133 @@
             margin: 0;
             padding: 0;
             background-color: #ffa500; /* Light orange background */
-            background-image: <img src="https://wallpapercave.com/wp/wp7447292.jpg" id="img" style="width: 494px; height: 278px;">#ffa500; /* Path to the poster image */
+            background-image: url("https://wallpapercave.com/wp/wp7447292.jpg"); /* Path to the poster image */
             background-size: cover;
+        }
+
+        /* Additional styling */
+        header {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            color: #ffa500; /* Orange color */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project {
+            flex-basis: calc(50% - 20px);
+        }
+
+        .skill {
+            display: inline-block;
+            background: #ffa500; /* Orange color */
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>AMIT VAGHELA</h1>
-        <p>Web Developer</p>
-    </header>
+<header>
+    <h1>AMIT VAGHELA</h1>
+    <p>Web Developer</p>
+</header>
 
-    <section class="contact">
-        <h2>Contact Information</h2>
-        <ul>
-            <li><i class="fas fa-envelope"></i>Email: av902959@gmail.com</li>
-            <li><i class="fas fa-phone"></i>Phone: (+91)7990382972</li>
-            <li><i class="fab fa-linkedin"></i>LinkedIn: linkedin.com/in/amit-vaghela</li>
-            <li><i class="fab fa-github"></i>GitHub: github.com/Amitkumar-Vaghela</li>
-            <li><i class="fab fa-twitter"></i> Twitter : witter.com/AmitVaghela777</li>
-            <li><i class="fas fa-map-marker-alt"></i>Location: Kheralu,Gujarat,India</li>
-        </ul>
-    </section>
+<section class="contact">
+    <h2>Contact Information</h2>
+    <ul>
+        <li><i class="fas fa-envelope"></i> Email: av902959@gmail.com</li>
+        <li><i class="fas fa-phone"></i> Phone: (+91)7990382972</li>
+        <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/amit-vaghela" target="_blank">linkedin.com/in/amit-vaghela</a></li>
+        <li><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Amitkumar-Vaghela" target="_blank">github.com/Amitkumar-Vaghela</a></li>
+        <li><i class="fab fa-twitter"></i> Twitter: <a href="https://twitter.com/AmitVaghela777" target="_blank">twitter.com/AmitVaghela777</a></li>
+        <li><i class="fas fa-map-marker-alt"></i> Location: Kheralu, Gujarat, India</li>
+    </ul>
+</section>
 
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Degree in Computer Science Enginerring </strong> Parul University Baroda</li>
-        </ul>
-    </section>
+<section>
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Degree in Computer Science Engineering</strong> - Parul University, Baroda</li>
+    </ul>
+</section>
 
-    <section>
-        <h2>Work Experience</h2>
-        <ul>
-            <li>
-                <strong>Web Developer</strong> 
-                <ul>
-                    <li>Developed and maintained web applications using HTML, CSS, and JavaScript.</li>
-                    <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
-                </ul>
-            </li>
-            <!-- Add more work experience entries as needed -->
-        </ul>
-    </section>
+<section>
+    <h2>Work Experience</h2>
+    <ul>
+        <li>
+            <strong>Web Developer</strong>
+            <ul>
+                <li>Developed and maintained web applications using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+            </ul>
+        </li>
+        <!-- Add more work experience entries as needed -->
+    </ul>
+</section>
 
-    <section>
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project">
-                <h3>AutoResume</h3>
-                <p></p>
-                <p>Technologies: HTML, CSS, JavaScript</p>
-            </div>
-   
+<section>
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>AutoResume</h3>
+            <p>Technologies: HTML, CSS, JavaScript</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section>
-        <h2>Skills</h2>
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">React</div>
-        <div class="skill">Python</div>
-        <div class="skill">java</div>
-        <div class="skill">SQL</div>
-        <div class="skill">DSA with C </div>
-    </section>
+<section>
+    <h2>Skills</h2>
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">React</div>
+    <div class="skill">Python</div>
+    <div class="skill">Java</div>
+    <div class="skill">SQL</div>
+    <div class="skill">DSA with C</div>
+</section>
 
-    <section>
-        <h2>Certifications</h2>
-        <ul>
-            <li> <a href="https://www.linkedin.com/posts/amit-vaghela-460634266_infosysspringboard-pythoncertified-neverstoplearning-activity-7156379451453276160-_m2J?utm_source=share&utm_medium=member_desktop" target="_blank">Certification Name - basic Python from Infosys</a></li>
-            <li> <a href="https://www.linkedin.com/posts/amit-vaghela-460634266_sqlcertification-infosys-dataskills-activity-7116678924994002944-BZ_6?utm_source=share&utm_medium=member_desktop" target="_blank">Certification Name - Basic SQL Database</a></li>
-            <li> <a href="https://www.linkedin.com/posts/amit-vaghela-460634266_microsoftai-aicertification-artificialintelligence-activity-7116678262868619264-Sljd?utm_source=share&utm_medium=member_desktop" target="_blank">Certification Name - Microsoft Learn AI Skill Challenge</a></li>
-            <li> <a href="https://www.linkedin.com/posts/amit-vaghela-460634266_cprogramming-codingskills-learningjourney-activity-7116651043563712512-Nh7V?utm_source=share&utm_medium=member_desktop" target="_blank">Certification Name - Completed C language</a></li>
-        </ul>
-    </section>
+<section>
+    <h2>Certifications</h2>
+    <ul>
+        <li><a href="https://www.linkedin.com/posts/amit-vaghela-460634266_infosysspringboard-pythoncertified-neverstoplearning-activity-7156379451453276160-_m2J?utm_source=share&utm_medium=member_desktop" target="_blank">Certification Name - Basic Python from Infosys</a></li>
+        <li><a href="https://www.linkedin.com/posts/amit-vaghela-460634266_sqlcertification-infosys-dataskills-activity-7116678924994002944-BZ_6?utm_source=share&utm_medium=member_desktop" target="_blank">Certification Name - Basic SQL Database</a></li>
+        <li><a href="https://www.linkedin.com/posts/amit-vaghela-460634266_microsoftai-aicertification-artificialintelligence-activity-7116678262868619264-Sljd?utm_source=share&utm_medium=member_desktop" target="_blank">Certification Name - Microsoft Learn AI Skill Challenge</a></li>
+        <li><a href="https://www.linkedin.com/posts/amit-vaghela-460634266_cprogramming-codingskills-learningjourney-activity-7116651043563712512-Nh7V?utm_source=share&utm_medium=member_desktop" target="_blank">Certification Name - Completed C Language</a></li>
+    </ul>
+</section>
 
-    <script>
-        // You can add JavaScript functionality if needed
-    </script>
+<script>
+    // You can add JavaScript functionality if needed
+</script>
 
 </body>
 </html>
